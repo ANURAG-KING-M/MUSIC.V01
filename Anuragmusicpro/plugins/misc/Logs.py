@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-from EsproMusic import app
-from EsproMusic.utils.database import (
+from AnuragMusicpro import app
+from AnuragMusicpro.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
