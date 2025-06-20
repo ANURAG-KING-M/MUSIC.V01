@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from EsproMusic import YouTube, app
-from EsproMusic.core.call import Loy
-from EsproMusic.misc import db
-from EsproMusic.utils.database import get_loop
-from EsproMusic.utils.decorators import AdminRightsCheck
-from EsproMusic.utils.inline import close_markup, stream_markup
-from EsproMusic.utils.stream.autoclear import auto_clean
-from EsproMusic.utils.thumbnails import get_thumb
+from AnuragMusicpro import YouTube, app
+from AnuragMusicpro.core.call import Loy
+from AnuragMusicpro.misc import db
+from AnuragMusicpro.utils.database import get_loop
+from AnuragMusicpro.utils.decorators import AdminRightsCheck
+from AnuragMusicpro.utils.inline import close_markup, stream_markup
+from AnuragMusicpro.utils.stream.autoclear import auto_clean
+from AnuragMusicpro.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
