@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EsproMusic import app
-from EsproMusic.core.call import Loy
-from EsproMusic.misc import SUDOERS, db
-from EsproMusic.utils import AdminRightsCheck
-from EsproMusic.utils.database import is_active_chat, is_nonadmin_chat
-from EsproMusic.utils.decorators.language import languageCB
-from EsproMusic.utils.inline import close_markup, speed_markup
+from AnuragMusicpro import app
+from AnuragMusicpro.core.call import Loy
+from AnuragMusicpro.misc import SUDOERS, db
+from AnuragMusicpro.utils import AdminRightsCheck
+from AnuragMusicpro.utils.database import is_active_chat, is_nonadmin_chat
+from AnuragMusicpro.utils.decorators.language import languageCB
+from AnuragMusicpro.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
