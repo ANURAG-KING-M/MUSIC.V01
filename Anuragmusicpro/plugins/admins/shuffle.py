@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from EsproMusic import app
-from EsproMusic.misc import db
-from EsproMusic.utils.decorators import AdminRightsCheck
-from EsproMusic.utils.inline import close_markup
+from AnuragMusicpro import app
+from AnuragMusicpro.misc import db
+from AnuragMusicpro.utils.decorators import AdminRightsCheck
+from AnuragMusicpro.utils.inline import close_markup
 from config import BANNED_USERS
 
 
