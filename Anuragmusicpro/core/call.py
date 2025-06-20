@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from EsproMusic import LOGGER, YouTube, app
-from EsproMusic.misc import db
-from EsproMusic.utils.database import (
+from AnuragMusicpro import LOGGER, YouTube, app
+from AnuragMusicpro.misc import db
+from AnuragMusicpro.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from EsproMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from EsproMusic.utils.exceptions import AssistantErr
-from EsproMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from EsproMusic.utils.inline.play import stream_markup
-from EsproMusic.utils.stream.autoclear import auto_clean
-from EsproMusic.utils.thumbnails import get_thumb
+from AnuragMusicpro.utils.exceptions import AssistantErr
+from AnuragMusicpro.utils.formatters import check_duration, seconds_to_min, speed_converter
+from AnuragMusicpro.utils.inline.play import stream_markup
+from AnuragMusicpro.utils.stream.autoclear import auto_clean
+from AnuragMusicpro.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -51,7 +51,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="EsproAss1",
+            name="AnuragMusicpro1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -61,7 +61,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="EsproAss2",
+            name="AnuragMusicpro2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -71,7 +71,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="EsproAss3",
+            name="AnuragMusicpro3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -81,7 +81,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="EsproAss4",
+            name="AnuragMusicpro4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -91,7 +91,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="EsproAss5",
+            name="AnuragMusicpro5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
