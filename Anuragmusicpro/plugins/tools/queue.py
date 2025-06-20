@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from EsproMusic import app
-from EsproMusic.misc import db
-from EsproMusic.utils import LoyBin, get_channeplayCB, seconds_to_min
-from EsproMusic.utils.database import get_cmode, is_active_chat, is_Music_playing
-from EsproMusic.utils.decorators.language import language, languageCB
-from EsproMusic.utils.inline import queue_back_markup, queue_markup
+from AnuragMusicpro import app
+from AnuragMusicpro.misc import db
+from AnuragMusicpro.utils import LoyBin, get_channeplayCB, seconds_to_min
+from AnuragMusicpro.utils.database import get_cmode, is_active_chat, is_Music_playing
+from AnuragMusicpro.utils.decorators.language import language, languageCB
+from AnuragMusicpro.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
