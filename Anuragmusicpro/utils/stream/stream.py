@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from EsproMusic import Carbon, YouTube, app
-from EsproMusic.core.call import Loy
-from EsproMusic.misc import db
-from EsproMusic.utils.database import add_active_video_chat, is_active_chat
-from EsproMusic.utils.exceptions import AssistantErr
-from EsproMusic.utils.inline import aq_markup, close_markup, stream_markup
-from EsproMusic.utils.pastebin import LoyBin
-from EsproMusic.utils.stream.queue import put_queue, put_queue_index
-from EsproMusic.utils.thumbnails import get_thumb
+from AnuragMusicpro import Carbon, YouTube, app
+from AnuragMusicpro.core.call import Loy
+from AnuragMusicpro.misc import db
+from AnuragMusicpro.utils.database import add_active_video_chat, is_active_chat
+from AnuragMusicpro.utils.exceptions import AssistantErr
+from AnuragMusicpro.utils.inline import aq_markup, close_markup, stream_markup
+from AnuragMusicpro.utils.pastebin import LoyBin
+from AnuragMusicpro.utils.stream.queue import put_queue, put_queue_index
+from AnuragMusicpro.utils.thumbnails import get_thumb
 
 
 async def stream(
