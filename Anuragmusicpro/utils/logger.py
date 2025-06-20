@@ -1,12 +1,12 @@
 from pyrogram import Client, enums, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery, ChatPermissions, Message
-from EsproMusic import app
-from EsproMusic.misc import SUDOERS
+from AnuragMusicpro import app
+from AnuragMusicpro.misc import SUDOERS
 import asyncio
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
-from EsproMusic import app, Userbot
-from EsproMusic.utils.database import get_assistant
+from AnuragMusicpro import app, Userbot
+from AnuragMusicpro.utils.database import get_assistant
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant, ChatAdminRequired
 from pyrogram.types import Message, ChatPrivileges
 import asyncio
@@ -14,8 +14,8 @@ from typing import Optional
 from random import randint
 from pyrogram.raw.types import InputGroupCall, InputPeerChannel, InputPeerChat
 from pyrogram.enums import ParseMode
-from EsproMusic import app
-from EsproMusic.utils.database import is_on_off
+from AnuragMusicpro import app
+from AnuragMusicpro.utils.database import is_on_off
 from config import LOGGER_ID
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
