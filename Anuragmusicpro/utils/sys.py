@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from EsproMusic.misc import _boot_
-from EsproMusic.utils.formatters import get_readable_time
+from AnuragMusicpro.misc import _boot_
+from AnuragMusicpro.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
