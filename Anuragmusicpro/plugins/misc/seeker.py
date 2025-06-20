@@ -1,7 +1,7 @@
 import asyncio
 
-from EsproMusic.misc import db
-from EsproMusic.utils.database import get_active_chats, is_Music_playing
+from AnuragMusicpro.misc import db
+from AnuragMusicpro.utils.database import get_active_chats, is_Music_playing
 
 
 async def timer():
