@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from EsproMusic import app
-from EsproMusic.core.call import Loy, autoend
-from EsproMusic.utils.database import get_client, is_active_chat, is_autoend
+from AnuragMusicpro import app
+from AnuragMusicpro.core.call import Loy, autoend
+from AnuragMusicpro.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
@@ -26,8 +26,8 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
+                                and i.chat.id != -1002666183310
                                 and i.chat.id != -1002664337527
-                                and i.chat.id != -1002666396577
                             ):
                                 if left == 20:
                                     continue
