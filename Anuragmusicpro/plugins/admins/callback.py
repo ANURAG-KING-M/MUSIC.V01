@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from EsproMusic import YouTube, app
-from EsproMusic.core.call import Loy
-from EsproMusic.misc import SUDOERS, db
-from EsproMusic.utils.database import (
+from AnuragMusicpro import YouTube, app
+from AnuragMusicpro.core.call import Loy
+from AnuragMusicpro.misc import SUDOERS, db
+from AnuragMusicpro.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from EsproMusic.utils.database import (
     Music_on,
     set_loop,
 )
-from EsproMusic.utils.decorators.language import languageCB
-from EsproMusic.utils.formatters import seconds_to_min
-from EsproMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from EsproMusic.utils.stream.autoclear import auto_clean
-from EsproMusic.utils.thumbnails import get_thumb
+from AnuragMusicpro.utils.decorators.language import languageCB
+from AnuragMusicpro.utils.formatters import seconds_to_min
+from AnuragMusicpro.utils.inline import close_markup, stream_markup, stream_markup_timer
+from AnuragMusicpro.utils.stream.autoclear import auto_clean
+from AnuragMusicpro.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SUPPORT_CHAT,
