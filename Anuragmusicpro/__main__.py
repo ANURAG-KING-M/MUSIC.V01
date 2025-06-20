@@ -53,7 +53,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("EsproMusic").info("Stopping Espro Music Bot...")
+    LOGGER("AnuragMusicpro").info("Stopping Anurag Musicpro Bot...")
 
 
 if __name__ == "__main__":
