@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from EsproMusic import userbot
-from EsproMusic.core.mongo import mongodb
+from AnuragMusicpro import userbot
+from AnuragMusicpro.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
