@@ -5,8 +5,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from EsproMusic import app
-from EsproMusic.utils.inlinequery import answer
+from AnuragMusicpro import app
+from AnuragMusicpro.utils.inlinequery import answer
 from config import BANNED_USERS
 
 
