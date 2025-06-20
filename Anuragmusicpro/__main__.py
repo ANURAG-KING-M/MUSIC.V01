@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from EsproMusic import LOGGER, app, userbot
-from EsproMusic.core.call import Loy
-from EsproMusic.misc import sudo
-from EsproMusic.plugins import ALL_MODULES
-from EsproMusic.utils.database import get_banned_users, get_gbanned
+from AnuragMusicpro import LOGGER, app, userbot
+from AnuragMusicpro.core.call import Loy
+from AnuragMusicpro.misc import sudo
+from AnuragMusicpro.plugins import ALL_MODULES
+from AnuragMusicpro.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -42,14 +42,14 @@ async def init():
     try:
         await Loy.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("EsproMusic").error(
+        LOGGER("AnuragMusicpro").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Loy.decorators()
-    LOGGER("EsproMusic").info("EsproMusicBot Started Successfully \n\n ANURAG I LOVE YOU I'M START @Sweet_chat_aao ")
+    LOGGER("AnuragMusicpro").info("AnuragMusicpro Started Successfully \n\n ANURAG I LOVE YOU I'M START @Sweet_chat_aao ")
     await idle()
     await app.stop()
     await userbot.stop()
