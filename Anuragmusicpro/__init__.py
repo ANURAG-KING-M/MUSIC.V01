@@ -1,4 +1,4 @@
-from EsproMusic.core.bot import Loy
+from Anuragmusicpro.core.bot import Loy
 from AnuragMusicpro.core.dir import dirr
 from AnuragMusicpro.core.git import git
 from AnuragMusicpro.core.userbot import Userbot
