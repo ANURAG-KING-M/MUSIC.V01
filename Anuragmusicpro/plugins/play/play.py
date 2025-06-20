@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from EsproMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from EsproMusic.core.call import Loy
-from EsproMusic.utils import seconds_to_min, time_to_seconds
-from EsproMusic.utils.channelplay import get_channeplayCB
-from EsproMusic.utils.decorators.language import languageCB
-from EsproMusic.utils.decorators.play import PlayWrapper
-from EsproMusic.utils.formatters import formats
-from EsproMusic.utils.inline import (
+from AnuragMusicpro import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from AnuragMusicpro.core.call import Loy
+from AnuragMusicpro.utils import seconds_to_min, time_to_seconds
+from AnuragMusicpro.utils.channelplay import get_channeplayCB
+from AnuragMusicpro.utils.decorators.language import languageCB
+from AnuragMusicpro.utils.decorators.play import PlayWrapper
+from AnuragMusicpro.utils.formatters import formats
+from AnuragMusicpro.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from EsproMusic.utils.logger import play_logs
-from EsproMusic.utils.stream.stream import stream
+from AnuragMusicpro.utils.logger import play_logs
+from AnuragMusicpro.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
