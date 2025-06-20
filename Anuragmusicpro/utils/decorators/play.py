@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from EsproMusic import YouTube, app
-from EsproMusic.misc import SUDOERS
-from EsproMusic.utils.database import (
+from AnuragMusicpro import YouTube, app
+from AnuragMusicpro.misc import SUDOERS
+from AnuragMusicpro.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
