@@ -44,17 +44,17 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "CHANNEL",
-        "value": "https://t.me/All_super_music",
+        "value": "",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "GROUP",
-        "value": "https://t.me/Sweet_chat_aao",
+        "value": "",
         "required": true
       },
       "LOGGER_ID": {
         "description": "Private Group Bana Kar Uska Id Dalo",
-        "value": "-1002626695971",
+        "value": "",
         "required": true
       }
     },
